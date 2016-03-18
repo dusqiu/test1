@@ -26,6 +26,7 @@ $router->get('/', ['as' => 'base', function () {
     Session::reflash();
 
     return Redirect::to('pages/home');
+    //world
 }]);
 
 // send users to the posts page
